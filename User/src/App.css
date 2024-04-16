@@ -1,0 +1,161 @@
+.home {
+  margin: 0;
+  padding: 0;
+  background-image: url("../src/images/greenhome.webp");
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login {
+  background-image: url("../src/images/looking.webp");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.sign-up-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sign-up-form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  letter-spacing: 0.5px;
+}
+input {
+  display: block;
+  height: 50px;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 5px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: 2px solid #2980b9;
+}
+button {
+  margin: 20px 0;
+  width: 100%;
+  background-color: #3498db;
+  color: #080710;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+button:hover {
+  background-color: #2980b9;
+}
+h1 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  letter-spacing: 0.5px;
+}
+p,
+.link {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  letter-spacing: 0.5px;
+}
+.link {
+  text-decoration: none;
+  color: #3498db;
+}
+.linkhome {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  letter-spacing: 0.5px;
+}
+.error-message {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: red;
+  letter-spacing: 0.5px;
+}
+.password-input {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.password-input img {
+  width: 20px;
+}
+.weather-container {
+  background-image: url("../src/images/download.jpeg");
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.success {
+  background-image: url("../src/images/success2.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+}
+.booking {
+  background-image: url("../src/images/products.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+.bookings {
+  background-image: url("../src/images/emission.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+.carousel-container {
+  background-color: black;
+  border: 2px solid yellow; /* Adjust border properties as needed */
+  border-radius: 10px; /* Optional: Add border radius for rounded corners */
+  padding: 70px; /* Optional: Add padding for space around the carousel */
+}
+.carousel-container p {
+  color: white;
+}
